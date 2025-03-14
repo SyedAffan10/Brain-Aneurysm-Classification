@@ -1,0 +1,51 @@
+/* Center align everything */
+.preview {
+  padding: 120px 0px;
+  text-align: center;
+}
+
+.preview h2,
+.preview h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.preview h3 {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.upload-label,
+.btn {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.result {
+  color: rgb(255, 10, 1);
+  text-align: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid rgb(255, 10, 1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  display: block;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
